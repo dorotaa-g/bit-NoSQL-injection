@@ -1,1 +1,1 @@
-# BIT-Nosql-injection
+# BIT-NoSQL-injection
