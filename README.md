@@ -35,7 +35,7 @@ Application nosqlinjection from damn-vulnerable-web-apps was built and run local
 
 ### Login without password (nosqlinjection)
 1. Username is Batman
-2. Enter the malicious code in the username - Batman’, pword: {$gt: ”} }) //
+2. Enter the malicious code in the username field - Batman’, pword: {$gt: ”} }) //
 
 ## Resources
 https://github.com/juice-shop/juice-shop
