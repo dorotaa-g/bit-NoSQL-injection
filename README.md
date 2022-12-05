@@ -17,8 +17,8 @@ Application nosqlinjection from damn-vulnerable-web-apps was built and run local
 3. Build the application and run it through ./run.py nosqlinjection 8888 80
 4. Go to http://localhost/login.html
 
-## NoSQL injection attacks manual (OWASP Juice Shop)
-### Exfiltration of orders database
+## NoSQL injection attacks manual
+### Exfiltration of orders database (OWASP Juice Shop)
 1. Register on Juice Shop website
 2. Create an order
 3. Go to order tracking (http://localhost:3000/#/track-result/new?id=xxxx-xxxxxxxxxxxxxxxx)
