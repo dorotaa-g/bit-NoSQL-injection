@@ -11,13 +11,13 @@ Application OWASP Juice Shop was built and run locally on virtual machine (Kali 
 4. Run npm start
 5. Go to http://localhost:3000
 
-Appliaction nosqlinjection from damn-vulnerable-web-apps was built and run locally on MacOS:
+Application nosqlinjection from damn-vulnerable-web-apps was built and run locally on MacOS:
 1. Install a Docker 4.13.1
 2. Download application from repository - git clone https://github.com/standash/damn-vulnerable-web-apps
 3. Build the application and run it through ./run.py nosqlinjection 8888 80
 4. Go to http://localhost/login.html
 
-## NoSQL injection attacks manual
+## NoSQL injection attacks manual (OWASP Juice Shop)
 ### Exfiltration of orders database
 1. Register on Juice Shop website
 2. Create an order
@@ -25,7 +25,7 @@ Appliaction nosqlinjection from damn-vulnerable-web-apps was built and run local
 4. Enter the malicious code in id parameter in URL - ' 1==1 '
 5. Find all of the orders via Dev Tools
 
-### Simple DoS attack
+### Simple DoS attack (OWASP Juice Shop)
 1. Register on Juice Shop website
 2. Open any product and submit review
 3. Edit the review 
@@ -33,7 +33,7 @@ Appliaction nosqlinjection from damn-vulnerable-web-apps was built and run local
 5. Change 2 to function sleep(1000) and build new URL address
 6. Go to http://localhost:3000//rest/products/sleep(1000)/reviews
 
-### Login without password
+### Login without password (nosqlinjection)
 1. Username is Batman
 2. Enter the malicious code in the username - Batman’, pword: {$gt: ”} }) //
 
