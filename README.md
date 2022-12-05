@@ -1,4 +1,7 @@
 # BIT-NoSQL-injection
+Subject: Information Technologies Security (BIT_I)
+Year: 2022/2023 (winter semester)
+
 This repository contains all the files needed to build and run two vulnerable applications - Owasp Juice Shop (https://github.com/juice-shop/juice-shop) , nosqlinjection (https://github.com/standash/damn-vulnerable-web-apps/tree/master/apps/nosqlinjection) .
 
 Applications were used as part of a school project to demonstrate the severity of a nosql injection vulnerability.
